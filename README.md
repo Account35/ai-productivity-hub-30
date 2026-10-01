@@ -1,82 +1,114 @@
-# AI Productivity Hub (30)
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive web application called AI Workplace Productivity Assistant.
+## Project Overview
 
-Core Features
+**AI Workplace Productivity Assistant** is a modern web application designed to help professionals complete common workplace tasks using AI. The application provides AI-powered tools for generating emails, researching information, and interacting with an AI workplace assistant through a conversational interface.
 
-Smart Email Generator
+The application focuses on providing a simple, professional SaaS-style experience without requiring users to create an account or sign in.
 
-Generate professional workplace emails.
+## Features Implemented
 
-Support Formal, Friendly, and Persuasive tones.
+### Smart Email Generator
 
-Provide editable AI-generated output.
+* Generate professional workplace emails using AI.
+* Supports multiple writing tones:
 
-AI Research Assistant
+  * Formal
+  * Friendly
+  * Persuasive
+* Generates responses dynamically based on user input.
+* Allows users to review and edit generated content.
 
-Accept a topic, article text, or URL.
+### AI Research Assistant
 
-Generate summaries, key insights, and recommendations.
+* Research topics using AI.
+* Summarise article content or provided text.
+* Accept URLs for research and summarisation.
+* Generate key insights and recommendations.
+* Present research results in a structured format.
 
-Display results in a clear, structured format.
+### AI Workplace Chatbot
 
-AI Workplace Chatbot
+* Interactive AI-powered workplace assistant.
+* Responds dynamically to user prompts.
+* Supports workplace-related questions and tasks.
+* Provides AI-generated conversational responses.
 
-Interactive chatbot for workplace-related prompts.
+### User Interface
 
-Respond to user prompts with AI-generated answers.
+* Modern SaaS-style dashboard.
+* Responsive desktop and mobile design.
+* Sidebar navigation.
+* Light grey and dark visual theme.
+* Clean input and output sections.
+* Professional cards, buttons, forms, and navigation.
+* Responsible AI disclaimer.
 
-UI/UX
+## Technologies and Tools Used
 
-Clean, modern SaaS-style interface.
+* **React** – Frontend application development
+* **TypeScript** – Type-safe development
+* **Vite** – Development and build tooling
+* **Tailwind CSS** – Responsive styling and UI design
+* **AI API** – Dynamic AI-generated responses
+* **Lovable** – Application development and prototyping
+* **GitHub** – Source code management and repository hosting
 
-Light grey and dark colour palette.
+## Setup Instructions
 
-Dashboard layout with sidebar navigation.
+### 1. Clone the Repository
 
-Responsive on desktop and mobile.
+```bash
+git clone https://github.com/your-username/ai-workplace-productivity-assistant.git
+```
 
-Clear input and output sections.
+### 2. Navigate to the Project
 
-Professional cards, buttons, forms, and navigation.
+```bash
+cd ai-workplace-productivity-assistant
+```
 
-Include a simple Responsible AI disclaimer.
+### 3. Install Dependencies
 
-Important Requirements
+```bash
+npm install
+```
 
-All application responses and generated content must be AI-generated. Do not use hardcoded, generic, or placeholder responses.
+### 4. Configure AI Integration
 
-Connect the AI features to an AI model/API so outputs are dynamically generated based on the user's input.
+Set up the required AI API configuration according to the AI provider used by the application.
 
-No login or registration.
+Do not commit API keys or other sensitive credentials to GitHub.
 
-Users should access the application immediately.
+### 5. Start the Development Server
 
-No backend, database, authentication, or user accounts.
-
-Keep the application focused on the frontend experience and AI functionality.
-
-Do not add unnecessary features or complexity.
-
-Make the interface polished, professional, and easy to use.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/d3e07885-9b43-45b0-b825-5e3be96e9275).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
 npm run dev
 ```
+
+The application will be available through the local development URL provided by Vite.
+
+## Usage
+
+1. Open the application.
+2. Select a tool from the sidebar.
+3. Enter your request or content.
+4. Submit the request.
+5. The application generates an AI-powered response based on the provided input.
+6. Review and edit the generated output where applicable.
+
+## Responsible AI
+
+The application includes a Responsible AI disclaimer to remind users that AI-generated information should be reviewed before being used for important workplace decisions or communications.
+
+Users should verify AI-generated content for accuracy, relevance, privacy, and appropriateness before using it.
+
+## Author
+
+**Lwando Ntlemeza**
+
+Tech Mentor | Digital Skills Facilitator
+
+## License
+
+This project is intended for educational and portfolio purposes.
